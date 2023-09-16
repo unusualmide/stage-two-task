@@ -3,16 +3,16 @@ function Footer() {
     <footer className="pt-[147px]">
       <div className="flex items-center justify-center gap-12 pb-9">
         <a href="">
-          <img src="public/facebook.svg" alt="" />
+          <img src="facebook.svg" alt="" />
         </a>
         <a href="">
-          <img src="public/instagram.svg" alt="" />
+          <img src="instagram.svg" alt="" />
         </a>
         <a href="">
-          <img src="public/twitter.svg" alt="" />
+          <img src="twitter.svg" alt="" />
         </a>
         <a href="">
-          <img src="public/youtube.svg" alt="" />
+          <img src="youtube.svg" alt="" />
         </a>
       </div>
       <div className="text-gray-900 text-base sm:text-[18px] flex justify-center items-center font-bold gap-12">

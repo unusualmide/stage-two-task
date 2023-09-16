@@ -23,13 +23,13 @@ const {results} = query
           />
           <img
             className="relative -left-10"
-            src="public/Search.svg"
+            src="Search.svg"
             alt="Search"
           />
         </div>
         <div className="inline-flex items-center gap-[27px]">
           <p className="hidden text-base font-bold text-white sm:block">Sign in</p>
-          <img src="public/Menu.svg" alt="Menu" />
+          <img src="Menu.svg" alt="Menu" />
         </div>
       </div>
       <div className="pt-[93px]">

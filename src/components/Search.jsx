@@ -17,7 +17,7 @@ function Search({ result }) {
             TV SERIES
           </p>
           <button className="ml-auto">
-            <img src="public/Favorite.svg" alt="Favorite" />
+            <img src="Favorite.svg" alt="Favorite" />
           </button>
         </div>
       </div>

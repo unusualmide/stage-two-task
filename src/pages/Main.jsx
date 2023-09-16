@@ -13,7 +13,7 @@ function Main({ search, results, result, error, isLoading }) {
           <p className="text-base font-normal sm:text-lg text-rose-700">
             See More
           </p>
-          <img src="public/Chevron right.png" alt="Chevron right" />
+          <img src="Chevron right.png" alt="Chevron right" />
         </a>
       </div>
       <div>
