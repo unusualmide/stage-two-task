@@ -70,7 +70,7 @@ function MovieDetails({ setError }) {
         style={{
           backgroundImage: `url(https://image.tmdb.org/t/p/w300/${details?.poster_path})`,
         }}
-        className="w-[375px] h-[300px] rounded-[20px] flex justify-center items-center  flex-col gap-[9px] block sm:hidden"
+        className="w-[375px] h-[300px] rounded-[20px] flex justify-center items-center  flex-col gap-[9px] sm:hidden"
       ></div>
       <div className="pt-[31px] flex flex-col sm:flex-row gap-[26px]">
         <div>
@@ -120,16 +120,16 @@ function MovieDetails({ setError }) {
           <h3 className="text-bleck-100 text-base sm:text-xl font-normal pt-[31px]">
             Writers:
             <span className="text-red-70%">
-              {crew?.slice(2, 4).map((cre) => (
-                <p key={cre.id}>{cre.name}</p>
+              {crew?.slice(2, 4).map((cre, idx) => (
+                <p key={idx}>{cre.name}</p>
               ))}
             </span>
           </h3>
           <h3 className="text-bleck-100 text-base sm:text-xl font-normal pt-[31px]">
             Stars:
             <div className="text-red-70%">
-              {cast?.slice(0, 2).map((cas) => (
-                <p key={cas.id}>{cas.name}</p>
+              {cast?.slice(0, 2).map((cas, idx) => (
+                <p key={idx}>{cas.name}</p>
               ))}
             </div>
           </h3>
@@ -152,11 +152,7 @@ function MovieDetails({ setError }) {
           <div className="hidden sm:inline-flex justify-center items-center gap-[9px]">
             <div className="flex items-center justify-center gap-1">
               <img className="object-contain" src="/Share.png" alt="Share" />
-              <img
-                className="object-contain"
-                src="Bookmark.png"
-                alt=""
-              />
+              <img className="object-contain" src="/Bookmark.png" alt="" />
               <img className="object-contain" src="/Star.png" alt="Star" />
             </div>
             <span className="text-white-soft text-[18px] text-center font-medium">
@@ -185,7 +181,7 @@ function MovieDetails({ setError }) {
             <div className="w-[215px] h-[42px] rounded-lg bg-black/50 backdrop-blur-sm flex justify-center items-center object-bottom">
               <p className="text-white-soft text-[10px] font-medium shadow-sm inline-flex gap-3 justify-center items-center">
                 <span>
-                  <img src="/List-White.png" alt="List White" />
+                  <img src="/public/List-White.png" alt="List White" />
                 </span>
                 The Best Movies and Shows in September
               </p>
@@ -196,6 +192,5 @@ function MovieDetails({ setError }) {
     </div>
   );
 }
-
 
 export default MovieDetails;
