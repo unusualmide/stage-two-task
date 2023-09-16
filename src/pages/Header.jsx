@@ -11,7 +11,7 @@ const {results} = query
 }} className="  block h-[600px] border-2 border-gray-300 pl-3 sm:pl-[95px] pr-3 sm:pr-[98px] pt-3 sm:pt-[22px]  bg-cover bg-no-repeat relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none">
   <div className="flex items-center justify-center gap-8 sm:gap-[140px]">
         <div className="inline-flex items-center gap-6">
-          <img src="public/tv.png" alt="tv" />
+          <img src="tv.png" alt="tv" />
           <h3 className="hidden text-2xl font-bold text-white sm:block">MovieBox</h3>
         </div>
         <div className="inset-y-0 left-0 flex items-center justify-between ">

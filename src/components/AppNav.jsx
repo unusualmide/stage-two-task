@@ -3,26 +3,26 @@ import { Link } from "react-router-dom";
 
 function AppNav() {
   return (
-    <nav className="w-44 sm:min-w-[226px] h-full sm:min-h-[982px] bg-white border  border-black/30 rounded-tr-[45px] rounded-br-[45px]">
+    <nav className="w-44 sm:min-w-[226px]  sm:min-h-[982px] bg-white border  border-black/30 rounded-tr-[45px] rounded-br-[45px]">
     <div className="pt-[52px] pl-5 inline-flex items-center gap-5">
       <img src="tv.png" alt="tv" />
       <h2 className="hidden text-2xl font-bold text-bleck-100 sm:block">MovieBox</h2>
     </div>
     <div className="flex  flex-col  pt-20 sm:pt-[107px] gap-[75px] text-start">
       <Link to='/home' className="flex gap-[15px]">
-        <img className="pl-5 sm:pl-[42px]" src="Home.svg" alt="home" />
+        <img className="pl-5 sm:pl-[42px]" src="/Home.svg" alt="home" />
         <p className="hidden text-lg font-semibold text-bleck-200 sm:block">Home</p>
       </Link>
       <Link className="flex gap-[15px]">
-        <img className="pl-5 sm:pl-[42px]" src="Movie Projector.svg" alt="movie projector" />
+        <img className="pl-5 sm:pl-[42px]" src="/Movie Projector.svg" alt="movie projector" />
         <p className="hidden text-lg font-semibold text-bleck-200 sm:block">Movies</p>
       </Link>
       <Link className="flex gap-[15px]">
-        <img className="pl-5 sm:pl-[42px]" src="TV Show.svg" alt="TV" />
+        <img className="pl-5 sm:pl-[42px]" src="/TV Show.svg" alt="TV" />
         <p className="hidden text-lg font-semibold text-bleck-200 sm:block">TV Series</p>
       </Link>
       <div className="flex  gap-[15px]">
-        <img className="pl-5 sm:pl-[42px]" src="Calendar.svg" alt="Calender" />
+        <img className="pl-5 sm:pl-[42px]" src="/Calendar.svg" alt="Calender" />
         <p className="hidden text-lg font-semibold text-bleck-200 sm:block">Upcoming</p>
       </div>
     </div>

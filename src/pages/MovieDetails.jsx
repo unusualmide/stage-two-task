@@ -151,13 +151,13 @@ function MovieDetails({ setError }) {
         <div>
           <div className="hidden sm:inline-flex justify-center items-center gap-[9px]">
             <div className="flex items-center justify-center gap-1">
-              <img className="object-contain" src="Share.png" alt="" />
+              <img className="object-contain" src="Share.png" alt="Share" />
               <img
                 className="object-contain"
                 src="Bookmark.png"
                 alt=""
               />
-              <img className="object-contain" src="Star.png" alt="" />
+              <img className="object-contain" src="Star.png" alt="Star" />
             </div>
             <span className="text-white-soft text-[18px] text-center font-medium">
               {details.vote_average?.toFixed(1)}
