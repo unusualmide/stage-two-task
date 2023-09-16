@@ -5,7 +5,7 @@ function AppNav() {
   return (
     <nav className="w-44 sm:min-w-[226px]  sm:min-h-[982px] bg-white border  border-black/30 rounded-tr-[45px] rounded-br-[45px]">
     <div className="pt-[52px] pl-5 inline-flex items-center gap-5">
-      <img src="tv.png" alt="tv" />
+      <img src="/tv.png" alt="tv" />
       <h2 className="hidden text-2xl font-bold text-bleck-100 sm:block">MovieBox</h2>
     </div>
     <div className="flex  flex-col  pt-20 sm:pt-[107px] gap-[75px] text-start">
