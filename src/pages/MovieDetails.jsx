@@ -143,7 +143,7 @@ function MovieDetails({ setError }) {
               <p className="text-xl font-medium text-bleck-100">
                 Award 9 nominations
               </p>
-              <img src="Expand Arrow.png" alt="Expand Arrow" />
+              <img src="/Expand Arrow.png" alt="Expand Arrow" />
             </div>
           </div>
         </div>
@@ -151,13 +151,13 @@ function MovieDetails({ setError }) {
         <div>
           <div className="hidden sm:inline-flex justify-center items-center gap-[9px]">
             <div className="flex items-center justify-center gap-1">
-              <img className="object-contain" src="Share.png" alt="Share" />
+              <img className="object-contain" src="/Share.png" alt="Share" />
               <img
                 className="object-contain"
                 src="Bookmark.png"
                 alt=""
               />
-              <img className="object-contain" src="Star.png" alt="Star" />
+              <img className="object-contain" src="/Star.png" alt="Star" />
             </div>
             <span className="text-white-soft text-[18px] text-center font-medium">
               {details.vote_average?.toFixed(1)}
@@ -185,7 +185,7 @@ function MovieDetails({ setError }) {
             <div className="w-[215px] h-[42px] rounded-lg bg-black/50 backdrop-blur-sm flex justify-center items-center object-bottom">
               <p className="text-white-soft text-[10px] font-medium shadow-sm inline-flex gap-3 justify-center items-center">
                 <span>
-                  <img src="List-White.png" alt="List White" />
+                  <img src="/List-White.png" alt="List White" />
                 </span>
                 The Best Movies and Shows in September
               </p>

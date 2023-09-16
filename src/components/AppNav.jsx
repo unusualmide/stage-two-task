@@ -42,7 +42,7 @@ function AppNav() {
       </div>
     </div>
     <Link className="flex  gap-[15px] p-[42px] pt-[44px]">
-      <img src="Logout.svg" alt="Logout" />
+      <img src="/Logout.svg" alt="Logout" />
       <p className="hidden text-lg font-semibold text-bleck-200 sm:block">Log out</p>
     </Link>
   </nav>
