@@ -87,7 +87,7 @@ function MovieDetails({ setError }) {
                 <span data-testid="movie-release-date" className="font-bold">
                   •
                 </span>
-                {utcDate}
+                {details?.release_date}
                 <span className="font-bold"> • </span> PG-13
                 <span data-testid="movie-runtime" className="font-bold">
                   •
@@ -113,7 +113,7 @@ function MovieDetails({ setError }) {
             <p>{details.overview}</p>
           </div>
           <h3 className="text-bleck-100 text-base sm:text-xl font-normal pt-5 sm:pt-[36px]">
-            Director:{" "}
+            Director:
             <span className="text-red-70%">
               {crew?.slice(7, 8).map((cre) => (
                 <p key={cre.id}>{cre.name}</p>
