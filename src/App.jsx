@@ -6,7 +6,7 @@ import Movies from "./pages/Movies";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="movies/:id">
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="movies/:id" element={<Movies/>} />
