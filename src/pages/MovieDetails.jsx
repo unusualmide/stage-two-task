@@ -59,6 +59,7 @@ function MovieDetails({ setError }) {
   const { videos } = details || {};
   const { results } = videos || {};
   const { key } = results?.[0] || {};
+  const {release_date} = details || {}
 
   const hours = Math.floor(runtime / 60);
   const minutes = runtime % 60;
@@ -85,7 +86,7 @@ function MovieDetails({ setError }) {
                 <span data-testid="movie-release-date" className="font-bold">
                   •
                 </span>
-                {new Date(details?.release_date).toISOString()}
+                {release_date}
                 <span className="font-bold"> • </span> PG-13
                 <span data-testid="movie-runtime" className="font-bold">
                   •
