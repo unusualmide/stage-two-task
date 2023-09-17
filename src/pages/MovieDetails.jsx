@@ -85,7 +85,7 @@ function MovieDetails({ setError }) {
                 <span data-testid="movie-release-date" className="font-bold">
                   •
                 </span>
-                {details?.release_date}
+                {new Date(details?.release_date).toISOString()}
                 <span className="font-bold"> • </span> PG-13
                 <span data-testid="movie-runtime" className="font-bold">
                   •
