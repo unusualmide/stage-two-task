@@ -63,9 +63,7 @@ function MovieDetails({ setError }) {
   const hours = Math.floor(runtime / 60);
   const minutes = runtime % 60;
 
-  const inputDate = new Date(details?.release_date)
-  const utcDate = new Date(inputDate.toISOString())
-
+  
   return (
     <div className="pl-5 sm:pl-[38px] pt-6 sm:pt-[38px] sm:pr-[51px] ">
       <VideoPlayer videoKey={key} />
