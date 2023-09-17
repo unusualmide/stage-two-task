@@ -6,13 +6,13 @@ import Movies from "./pages/Movies";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route index element={<Homepage />} />
         <Route path="movies/:id" element={<Movies/>} />
 
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
     
   );
 }
