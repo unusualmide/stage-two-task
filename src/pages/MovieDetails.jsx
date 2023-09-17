@@ -63,7 +63,7 @@ function MovieDetails({ setError }) {
   const hours = Math.floor(runtime / 60);
   const minutes = runtime % 60;
 
-  const inputDate = new Date(details.release_date)
+  const inputDate = new Date(details?.release_date)
   const utcDate = new Date(inputDate.toISOString())
 
   return (
